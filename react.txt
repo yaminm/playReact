@@ -1,0 +1,31 @@
+להתקין טמפלייט במהירות של רייקט
+npm i create-react-app -g
+create-react-app react-app
+after some minutes we will get this : 
+Success! Created react-app at C:\Users\Menashe Yamin\Documents\React\react-app
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd react-app
+  npm start
+
+Happy hacking!
+
+_________________________________________
+
+live-reload
+in the npm and that's all!
