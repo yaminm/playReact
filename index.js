@@ -25,7 +25,8 @@ class Welcome extends React.Component {
 
 const element = <h1> Hello, world!{meth(true)} {a()} {1+1}</h1>
 const element1      =<Welcome namea="Menash"></Welcome>
+const element2 = <Toggle></Toggle>
 ReactDOM.render(
-	element1,
+    element2,
 	document.getElementById('root')
 );

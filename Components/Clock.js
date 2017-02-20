@@ -1,17 +1,21 @@
 class Clock extends React.Component {
-  constructor(props) {
+  constructor(props)
+  {
     super(props);
     this.state = {date: new Date()};
   }
 
-  componentDidMount() { //run first time the component get to the DOM
-    this.timerID = setInterval(
+  componentDidMount()
+  { //run first time the component get to the DOM
+    this.timerID = setInterval
+    (
       () => this.tick(),
       1000
     );
   }
 
-  componentWillUnmount() { //run when the component removed from the DOM
+  componentWillUnmount()
+  { //run when the component removed from the DOM
     clearInterval(this.timerID);
   }
 
